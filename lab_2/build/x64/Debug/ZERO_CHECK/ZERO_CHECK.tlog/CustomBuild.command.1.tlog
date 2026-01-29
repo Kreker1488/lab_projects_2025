@@ -1,0 +1,10 @@
+^C:\GIT\LAB_PROJECTS_2025\LAB_2\BUILD\CMAKEFILES\3673EA69C72DC03B82A79BE985B8C87C\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Git/lab_projects_2025/lab_2 -BC:/Git/lab_projects_2025/lab_2/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Git/lab_projects_2025/lab_2/build/labwork_2.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

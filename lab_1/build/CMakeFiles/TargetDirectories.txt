@@ -1,3 +1,0 @@
-C:/Git/lab_projects_2025/lab_1/build/CMakeFiles/labwork.dir
-C:/Git/lab_projects_2025/lab_1/build/CMakeFiles/ALL_BUILD.dir
-C:/Git/lab_projects_2025/lab_1/build/CMakeFiles/ZERO_CHECK.dir
