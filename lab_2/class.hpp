@@ -2,25 +2,27 @@
 
 class MyString{
 public:
-    MyString();
+    MyString(); // конструктор по умолчанию
 
-    MyString(const char c, const size_t size);
+    MyString(const char c, const size_t size); // конструктор, принимающий строку
 
     MyString(const char* c, const size_t size);
 
-    MyString(const MyString& other);
+    MyString(const MyString& other); // конструктор, принимающий другой объект класса
 
-    ~MyString();
+    ~MyString(); // декструктор 
 
-    MyString& operator=(const MyString& other);
+    MyString& operator=(const MyString& other); // перегрузка оператор =
 
 
-    void print() const;
+    void print() const; // метод вывода строк
 
-    size_t get_size();
-    char* get_str();
+    size_t get_size() const; // геттеры размера и значения
+    char* get_str() const;
 
-    void conc(MyString s1, MyString s2);
+    friend MyString operator+(const MyString& s1, const MyString& s2); // перегрузка оператора +
+    friend MyString operator*(const MyString& s1, int count); // перегрузка оператора *
+    char& operator[](int number); // перегрузка оператора []
 private:
     size_t size_;
     char* str_;
