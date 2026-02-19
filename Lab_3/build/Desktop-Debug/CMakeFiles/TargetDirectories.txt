@@ -1,0 +1,12 @@
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/CMakeFiles/edit_cache.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/CMakeFiles/rebuild_cache.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/Logger/CMakeFiles/Logger.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/Logger/CMakeFiles/edit_cache.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/Logger/CMakeFiles/rebuild_cache.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/Logger/CMakeFiles/Logger_autogen_timestamp_deps.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/Logger/CMakeFiles/Logger_autogen.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/main/CMakeFiles/main.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/main/CMakeFiles/edit_cache.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/main/CMakeFiles/rebuild_cache.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/main/CMakeFiles/main_autogen_timestamp_deps.dir
+C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/main/CMakeFiles/main_autogen.dir

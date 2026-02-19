@@ -16,4 +16,6 @@ add_executable(main
     mainwindow.ui
 )
 
-target_link_libraries(main PRIVATE Qt6::Widgets)
+target_include_directories(main PRIVATE "C:/Git/lab_projects_2025/Lab_3/Logger")
+target_link_directories(main PRIVATE "C:/Git/lab_projects_2025/Lab_3/build/Desktop-Debug/Logger")
+target_link_libraries(main PRIVATE Qt6::Widgets Logger)

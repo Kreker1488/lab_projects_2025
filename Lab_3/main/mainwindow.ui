@@ -10,60 +10,131 @@
     <height>600</height>
    </rect>
   </property>
+  <property name="acceptDrops">
+   <bool>true</bool>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton_info">
+   <widget class="QPushButton" name="bt_info">
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>50</y>
+      <y>200</y>
       <width>161</width>
       <height>91</height>
      </rect>
     </property>
     <property name="text">
-     <string>Просто кнопочка</string>
+     <string>Info</string>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButton_warning">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>50</y>
-      <width>161</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Предупреждение</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_critical">
-    <property name="geometry">
-     <rect>
-      <x>290</x>
-      <y>150</y>
-      <width>161</width>
-      <height>91</height>
-     </rect>
-    </property>
-    <property name="text">
-     <string>Жесткая ошибка пипец</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButton_error">
+   <widget class="QPushButton" name="bt_trace">
     <property name="geometry">
      <rect>
       <x>90</x>
-      <y>150</y>
+      <y>100</y>
       <width>161</width>
       <height>91</height>
      </rect>
     </property>
     <property name="text">
-     <string>Ошибка</string>
+     <string>Trace</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_debug">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>100</y>
+      <width>161</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Debug</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="val_x">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>430</y>
+      <width>113</width>
+      <height>24</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>430</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x =</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="val_y">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>430</y>
+      <width>113</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>430</y>
+      <width>31</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>y =</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="bt_div">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>430</y>
+      <width>51</width>
+      <height>24</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>x / y =</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="result">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>430</y>
+      <width>181</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>true</bool>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>
