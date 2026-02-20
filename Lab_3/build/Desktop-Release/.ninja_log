@@ -1,0 +1,17 @@
+# ninja log v5
+8	96	7932368105852088	Logger/Logger_autogen/timestamp	d2aed7aca9be51bd
+8	96	7932368105852088	Logger/Logger_autogen/mocs_compilation.cpp	d2aed7aca9be51bd
+8	96	7932368105852088	C:/Git/lab_projects_2025/Lab_3/build/Desktop-Release/Logger/Logger_autogen/timestamp	d2aed7aca9be51bd
+8	96	7932368105852088	C:/Git/lab_projects_2025/Lab_3/build/Desktop-Release/Logger/Logger_autogen/mocs_compilation.cpp	d2aed7aca9be51bd
+99	279	7932368107982098	Logger/CMakeFiles/Logger.dir/Logger_autogen/mocs_compilation.cpp.obj	d65d85ad79bdc5ad
+102	730	7932368112494489	Logger/CMakeFiles/Logger.dir/logger.cpp.obj	6acc7714af48857a
+731	813	7932368113214482	Logger/Logger.dll	e9e57dfb04f2be23
+731	813	7932368113214482	Logger/Logger.lib	e9e57dfb04f2be23
+813	1059	7932368115494520	main/main_autogen/timestamp	75b1803c88ad53d6
+813	1059	7932368115494520	main/main_autogen/mocs_compilation.cpp	75b1803c88ad53d6
+813	1059	7932368115494520	C:/Git/lab_projects_2025/Lab_3/build/Desktop-Release/main/main_autogen/timestamp	75b1803c88ad53d6
+813	1059	7932368115494520	C:/Git/lab_projects_2025/Lab_3/build/Desktop-Release/main/main_autogen/mocs_compilation.cpp	75b1803c88ad53d6
+1063	2426	7932368129453907	main/CMakeFiles/main.dir/main.cpp.obj	f03a4db36dcb4693
+1061	2442	7932368129603900	main/CMakeFiles/main.dir/main_autogen/mocs_compilation.cpp.obj	32c95a3cb03ec551
+1065	2556	7932368130743901	main/CMakeFiles/main.dir/mainwindow.cpp.obj	ba0dea3eb089a172
+2556	2679	7932368131449421	main/main.exe	69edfa6728bf176d
